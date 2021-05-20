@@ -167,3 +167,48 @@ a {
     justify-content: center;
     align-items: center;
 }
+
+/* Buttons */
+.butto {
+    border-radius: 30px;
+    box-sizing: border-box;
+    cursor: pointer;
+    outline: none;
+    padding: 1.5rem;
+    width: 30%;
+}
+
+.butto--heading {
+    background-color: #fff;
+    border-color: var(--color-headings);
+    color: var(--color-headings);
+    font-weight: bold;
+    outline-color: var(--color-headings);
+}
+
+.butto--heading:hover {
+    background-color: var(--color-headings);
+    color: #fff;
+}
+
+.butto--accent {
+    background-color: var(--color-accent);
+    border-color: var(--color-accent);
+    border: 0;
+    color: #fff;
+}
+
+.butto--accent:hover {
+    background-color: #cc2a00;
+}
+
+.butto--secondary {
+    background-color: var(--color-primary);
+    border-color: var(--color-primary);
+    border: 0;
+    color: #fff;
+}
+
+.butto--secondary:hover {
+    
+}
