@@ -11,62 +11,51 @@
     <link rel="stylesheet" href="CSS/style.css">
 </head>
 <body>
-    <section class="block block--dark block--skewed-right block-showcase">
+    <section class="block">
         <header class="block__header">
-            <h2>User Friendly Control Panel</h2>
+            <h2>What our costumers are saying</h2>
+            <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Rerum dignissimos ratione ut placeat consequuntur harum
+                doloribus beatae similique eos nesciunt. Ullam, necessitatibus
+                a. Aut, impedit sit nisi
+                perferendis sapiente dolore.
+            </p>
         </header>
-        <div class="container grid grid--1x2">
-            <img class="block-showcase__image" src="images/ipadsmall.png" alt="">
-            <ul class="list">
-                <li>
-                    <div class="media">
-                        <div class="media__image">
-                            <svg class="icon icon--primary">
-                                <use xlink:href="images/sprite.svg#snap"></use>
-                            </svg>
+        <div class="container">
+            <body style="padding: 5rem;">
+                <div class="card testimonial">
+                    <div class="grid grid--1x2">
+                        <div class="testimonial__image">
+                            <img src="images/testimonial.jpg" 
+                            alt="Happy Smiling costumer">
+                            <span class="icon-container icon-container--accent">
+                                <svg class="icon icon--white icon--small">
+                                    <use xlink:href="images/sprite.svg#quotes"></use>
+                                </svg>
+                            </span>
                         </div>
-                        <div class="media__body">
-                            <h3 class="media__title">Easy Start & Managed Updates</h3>
-                            <p>
-                                Lorem, ipsum dolor sit amet consectetur
-                                 adipisicing elit. Illum soluta doloribus
-                                  vel deserunt? Consequatur, nam. Placeat
-                                   quaerat id velit provident.
-                            </p>
-                        </div>
-                    </div> 
-                </li>
-                <li>
-                    <div class="media">
-                        <div class="media__image">
-                            <svg class="icon icon--primary">
-                                <use xlink:href="images/sprite.svg#snap"></use>
-                            </svg>
-                        </div>
-                        <div class="media__body">
-                            <h3 class="media__title">Easy Start & Managed Updates</h3>
-                            <p>
-                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum soluta doloribus vel deserunt? Consequatur, nam. Placeat quaerat id velit provident.
-                            </p>
-                        </div>
+                        <blockquote class="quote">
+                            <p class="quote__text"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos, porro!</p>
+                            <footer>
+                                <div class="media">
+                                    <div class="media__image">
+                                        <svg class="icon icon--primary quote__line">
+                                            <use xlink:href="images/sprite.svg#line"></use>
+                                        </svg>
+                                    </div>
+                                    <div class="media__body">
+                                        <h3 class="media__title quote__author">John Smith</h3>
+                                        <p class="quote__company">
+                                            ABC Company
+                                        </p>
+                                    </div>
+                                </div>
+                            </footer>
+                        </blockquote>
                     </div>
-                </li>
-                <li>
-                    <div class="media">
-                        <div class="media__image">
-                            <svg class="icon icon--primary">
-                                <use xlink:href="images/sprite.svg#snap"></use>
-                            </svg>
-                        </div>
-                        <div class="media__body">
-                            <h3 class="media__title">Easy Start & Managed Updates</h3>
-                            <p>
-                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum soluta doloribus vel deserunt? Consequatur, nam. Placeat quaerat id velit provident.
-                            </p>
-                        </div>
-                    </div>
-                </li>
-            </ul>
+                </div>
+            </body>
         </div>
     </section>
     <script src="js/main.js"></script>
